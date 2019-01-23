@@ -81,9 +81,10 @@
                 <div class="title m-b-md">
                    Hi! Everyone.
                    <?php  
-                     $inpro = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-                     $var = gethostbyname($inpro);
-                     echo $var;
+                     <?php
+                            $var = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+                            $ff = gethostbyname($var);
+                            echo $ff;
                    ?>
                 </div>
                     
