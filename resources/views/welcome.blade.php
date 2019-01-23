@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Hi! I From
+                   Hi! I From Rajagiriya
                 </div>
                     
                 <div class="links">
