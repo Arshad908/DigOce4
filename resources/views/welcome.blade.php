@@ -79,7 +79,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Hi! I From Rajagiriya
+                   Hi! Everyone.
+                   <?php  
+                     $inpro = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+                     $var = gethostbyname($inpro);
+                     echo $var;
+                   ?>
                 </div>
                     
                 <div class="links">
