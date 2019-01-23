@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   This is update
+                   Hi! I From
                 </div>
                     
                 <div class="links">
